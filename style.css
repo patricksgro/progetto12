@@ -1,0 +1,226 @@
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+#updates {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#updates div p {
+    color: grey;
+}
+
+#updates div button {
+    background-color: white;
+    border-radius: 5px;
+    height: 35px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav :nth-child(even) {
+    text-decoration: none;
+    color: black;                        /*FORMATTAZIONE SUPERFLUA, PER COMPLETAMENTO ESERCIZIO*/
+}
+
+#title {
+    display: flex;
+    background-color: whitesmoke;
+    margin-top: 1.2rem;
+}
+
+#title .titleLeft {
+    padding: 3rem;
+}
+
+#title .titleLeft h1 {
+    display: inline;
+    font-style: italic;
+    font-size: 3.5rem;
+    font-weight: normal;
+}
+
+#title .titleLeft:first-of-type p {
+    font-size: 1.25rem;
+}
+
+#title .titleLeft > :last-child {
+    text-decoration: none;
+    color: blue;                      /*FORMATTAZIONE SUPERFLUA , PER COMPLETAMENTO ESERCIZIO*/
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#title :first-child {
+    width: 50%;
+}
+
+#importantThings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.importantOne {
+    display: flex;
+    border: solid 1px rgb(221, 220, 220);
+    border-radius: 5px;
+    width: 46%;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.importantOne h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.importantOne p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.importantOne div p:nth-child(3) {
+    color: grey;
+}
+
+.miniature {
+    margin-left: 0;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.left_col {
+    width: 68%;
+}
+
+.left_col > :first-child {
+    font-style: italic;
+}
+
+#content .left_col > :nth-child(6) {
+    border-color: red;
+}
+
+.left_col:first-of-type h1 {
+    margin-bottom: 0;
+}
+
+.left_col:first-of-type p {
+    margin-top: 0;
+}
+
+#iacopo {
+    background-color: antiquewhite;
+}
+
+#content .left_col :nth-child(4) ul li:nth-child(2) {
+    background-color: antiquewhite;
+}
+
+#btn {
+    display: flex;
+}
+
+#btn > div {
+    margin-right: 5px;
+}
+
+.right_col {
+    width: 28%;
+}
+
+.right_col .glossary {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 1.2rem;
+}
+
+.right_col .glossary h2 {
+    font-weight: 600;
+}
+
+.right_col .archivio a {
+    background-color: aqua;
+}
+
+.right_col .archivio a, .altro a {
+    display: block;
+}
+
+.right_col .archivio, .altro {
+    padding: 1.2rem;
+}
+
+.old {
+    background-color: white;
+    color: blue;
+    border-color: blue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.new {
+    background-color: white;
+    color: grey;
+    border-color: grey;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    position: relative;
+    left: -33%;
+    width: 166%; 
+}
+
+footer div:first-child {
+    text-align: center;
+}
+
+footer div:last-child {
+    text-align: right;
+}
+
+footer :nth-child(2) p a {
+    background-color: antiquewhite;
+}
+
+#content .left_col :nth-child(5) .new {
+    background-color: antiquewhite;
+}
+
+footer :nth-child(1) p :nth-child(2) {
+    background-color: antiquewhite;
+}
+
+
+
